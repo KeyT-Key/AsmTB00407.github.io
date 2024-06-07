@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: larger;
+}
+/*hedear---------------------------------------------------*/
+header {
+    width: 100%;
+    background-image: url('Imagae/sv.jpg');
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+/*header---------------------------------------------------*/
+/*nav*-----------------------------------------------------*/
+nav {
+    height: 40px; 
+    background-color:orangered; 
+    color:white; 
+    text-align:center; 
+    font-variant:small-caps;
+}
+nav>div>ul>li {
+    float: left;
+    padding: 0 5px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav>div>ul>li>a{
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+}
+nav>div>ul>li>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe[name= page] {
+    width: 100%;
+    min-height: 400px;
+}
+nav>.tk input{
+    float: right;
+    margin: 10px;
+}
+/*nav--------------------------------------------------------*/
+/*footer*-----------------------------------------------------*/
+footer {
+    border-top: 5px double orangered;
+    line-height: 40px;
+    background: #192041;
+    width: 100%;
+    clear: both;
+}
+.f2 {
+    float: right;
+}
+.f3{
+    float: right;
+    text-align: left;
+    margin-right: 500px;
+    margin-top: 5px;
+    color: white;
+    line-height: 25px;
+}
+/*footer*---------------------------------------------------------/
+/article---------------------------------------------------------*/
+.o1 {
+    background-color: red;
+}
+
+.tin {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+div.tin1>.tin img {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+.tin a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+.a1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    padding-left: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.a2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-right: 400px;
+}
+.a2 img {
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+.k1 {
+    border: 2px solid black;
+}
+/*article---------------------------------------------------------/
+/*aside----------------------------------------------------------*/
+    
+/*aside----------------------------------------------------------*/

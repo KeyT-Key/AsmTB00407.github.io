@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: larger;
+}
+.container {
+    margin: 0px auto;
+}
+/*hedear---------------------------------------------------*/
+header {
+    height: 0px;
+    width: 100%;
+    background-image: url('Imagae/sv.jpg');
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+/*header---------------------------------------------------*/
+/*nav*-----------------------------------------------------*/
+nav {
+    height: 40px; 
+    background-color:orangered; 
+    color:white; 
+    text-align:center; 
+    font-variant:small-caps;
+}
+nav>div>ul>li {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav>div>ul>li>a{
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+}
+nav>div>ul>li>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+nav>.tk input{
+    float: right;
+    margin: 10px;
+}
+/*nav--------------------------------------------------------*/
+/*footer*-----------------------------------------------------*/
+footer {
+    border-top: 5px double orangered;
+    line-height: 40px;
+    background: #192041;
+    width: 100%;
+    clear: both;
+}
+.f2 {
+    float: right;
+}
+.f3{
+    float: right;
+    text-align: left;
+    margin-right: 500px;
+    margin-top: 5px;
+    color: white;
+    line-height: 25px;
+}
+/*footer*---------------------------------------------------------/
+/*article----------------------------------------------------*/
+.o1 {
+    background-color: red;
+}
+.a1 {
+    font-size: 30px;
+    font-weight: 40px;
+    font-variant: small-caps;
+    text-align: center;
+}
+.a2 {
+    float: left;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.a2 img {
+    width: 200px;
+}
+ .aa2 {
+    clear: left;
+    padding-top: 10px;
+ }
+ .a4 {
+    float: left;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.a4 img {
+    width: 200px;
+}
+.a5 img {
+    width: 200px;
+}
+.a5 {
+    padding: 20px;
+}
+.cn1 {
+    padding: 10px;
+    margin-left: 30px;
+}
+/*article----------------------------------------------------*/

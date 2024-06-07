@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: larger;
+}
+.container {
+    margin: 0px auto;
+}
+/*hedear---------------------------------------------------*/
+.container>header {
+    width: 100%;
+    background-image: url('Imagae/sv.jpg');
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+/*header---------------------------------------------------*/
+/*nav*-----------------------------------------------------*/
+.container > nav {
+    height: 40px; 
+    background-color:orangered; 
+    color:white; 
+    text-align:center; 
+    font-variant:small-caps;
+}
+.container>nav>div>ul>li {
+    float: left;
+    padding: 0 5px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>div>ul>li>a{
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+}
+.container> nav>div>ul>li>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe[name= page] {
+    width: 100%;
+    min-height: 400px;
+}
+.container>nav>.tk input{
+    float: right;
+    margin: 10px;
+}
+/*nav--------------------------------------------------------*/
+/*article----------------------------------------------------*/
+.container > article {
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>article>.a1>.tnm{
+    background-color: orange;
+    line-height: 10px;
+}
+.container>article>.o2{
+    float: left;
+    margin: 10px;
+    border-right: 5px solid red;
+}
+.container>article>.ho1 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.container>article>.o3>.o4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.container>article>.o3>img{
+    padding: 5px;
+}
+.o1{  
+    background: red;
+}
+.home2>img {
+    float: left;
+    width: 10%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.td1 {
+    clear: right;
+    padding-top: 10px;
+}
+.p2 {
+    padding-top: 10px;
+}
+.home2{
+    font-size: 20px;
+    padding-top: 10px;
+    overflow: auto;
+}
+.home1>p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+/*article*----------------------------------------------------/
+/*footer*-----------------------------------------------------*/
+.container>footer {
+    border-top: 5px double orangered;
+    line-height: 40px;
+    background: #192041;
+    width: 100%;
+    clear: both;
+}
+.f2 {
+    float: right;
+}
+.f3{
+    float: right;
+    text-align: left;
+    margin-right: 500px;
+    margin-top: 5px;
+    color: white;
+    line-height: 25px;
+}
+/*footer*---------------------------------------------------------/
